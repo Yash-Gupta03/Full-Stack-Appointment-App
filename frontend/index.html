@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Appointment_App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="booking-form">
+        <h2 id="form-heading">Book A Call</h2>
+        <p id="para-heading">Fill the form to get a call from the company</p>
+        <hr />
+        <form action="#" id="booking-form">
+          <div id="name" class="form-details">
+            <label for="Name">Name</label>
+            <input type="text" name="username" id="username" />
+          </div>
+          <div id="useremail" class="form-details">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" />
+          </div>
+          <div id="userphone" class="form-details">
+            <label for="phone">Phone</label>
+            <input type="text" name="phone" id="phone" />
+          </div>
+          <!-- <button>Submit</button> -->
+          <div class="format-button">
+            <button type="submit" class="button" role="button">
+              Get a Call
+            </button>
+          </div>
+        </form>
+      </div>
+      <ul id="list"></ul>
+    </div>
+    <script src="correct_code.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  /* background-color: #333; */
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(grey, white);
+  font-size: x-large;
+}
+
+.booking-form {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  margin-left: 30%;
+  margin-right: 40%;
+  margin-top: 5%;
+  border: 2px solid black;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  padding-right: 1%;
+}
+
+#form-heading {
+  text-align: center;
+}
+
+#para-heading {
+  text-align: center;
+}
+
+.form-details {
+  margin-bottom: 1%;
+}
+
+.format-button {
+  /* text-align: center;
+   */
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+/* CSS */
+.button {
+  /* background-image: linear-gradient(#42a1ec, #0070c9); */
+  background-image: linear-gradient(black, black);
+
+  border: 1px solid #0077cc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  direction: ltr;
+  display: block;
+  font-family: "SF Pro Text", "SF Pro Icons", "AOS Icons", "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: -0.022em;
+  line-height: 1.47059;
+  min-width: 30px;
+  overflow: visible;
+  padding: 4px 15px;
+  text-align: center;
+  /* vertical-align: baseline; */
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+}
